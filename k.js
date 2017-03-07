@@ -13,7 +13,7 @@ button.addEventListener('click', function () {
     var ld = window.prompt('1 for heads, 2 for tails.')
     ld = ld || ''
     ld = ld.trim().toLowerCase()
-    parseInt(ld)
+    ld = parseInt(ld)
     if (isNaN(ld)) {
       ld = 1
     }
